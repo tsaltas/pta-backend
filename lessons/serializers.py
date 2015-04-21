@@ -13,7 +13,7 @@ class TagSerializer(serializers.ModelSerializer):
 
 	class Meta:
 		model = Tag
-		fields = ('description',)
+		fields = ('id', 'description')
 
 
 class ActivitySerializer(serializers.ModelSerializer):

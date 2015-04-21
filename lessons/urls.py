@@ -6,6 +6,7 @@ router = DefaultRouter()
 
 router.register(r'activities', views.ActivityViewSet)
 router.register(r'steps', views.StepViewSet)
+router.register(r'tags', views.TagViewSet)
 
 urlpatterns = patterns('',
     # Examples:
