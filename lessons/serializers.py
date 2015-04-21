@@ -22,4 +22,4 @@ class ActivitySerializer(serializers.ModelSerializer):
 	tags = TagSerializer(many=True, required=False)
 	class Meta:
 		model = Activity
-		fields = ('title', 'level', 'language', 'votecount', 'steps', 'tags')
+		fields = ('id', 'title', 'level', 'language', 'votecount', 'steps', 'tags')
