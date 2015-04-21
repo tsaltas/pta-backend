@@ -57,6 +57,15 @@ WSGI_APPLICATION = 'ptalessons.wsgi.application'
 
 CORS_ORIGIN_ALLOW_ALL = True 
 
+CORS_ALLOW_METHODS = (
+'GET',
+'POST',
+'PUT',
+'PATCH',
+'DELETE',
+'OPTIONS'
+)
+
 APPEND_SLASH = False
 
 
