@@ -66,7 +66,7 @@ CORS_ALLOW_METHODS = (
 'OPTIONS'
 )
 
-APPEND_SLASH = False
+APPEND_SLASH = True
 
 
 
