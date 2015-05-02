@@ -2,5 +2,6 @@ env
 __pycache__
 staticfiles
 local_settings.py
+super_user.txt
 db.sqlite3
 *.py[co]
